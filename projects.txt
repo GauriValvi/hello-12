@@ -1,0 +1,75 @@
+Top 3 Projects for Linux + AWS Interviews (2025)
+🚀 Project 1: CI/CD Pipeline on AWS with Jenkins, GitHub & EC2
+🧩 What it includes:
+Install and configure Jenkins on EC2 (Linux)
+
+Connect GitHub repo to Jenkins via webhooks
+
+On every push:
+
+Pull the code
+
+Build (or basic validation)
+
+Deploy updated site to Apache on EC2
+
+Monitor via Jenkins email notification
+
+💼 Why it's impressive:
+Shows Linux administration, CI/CD, automation, and GitHub integration.
+
+Demonstrates understanding of DevOps workflow.
+
+Very relevant for SRE, DevOps, and Cloud roles.
+
+🧰 Tech Used:
+AWS EC2, Jenkins, GitHub, Apache, Shell scripting (or Ansible optional)
+
+📦 Project 2: Automated Backup & Monitoring of EC2 using Bash + CloudWatch + S3
+🧩 What it includes:
+Launch EC2 with Apache and host sample site
+
+Write a cron job Bash script to:
+
+Compress /var/www/html
+
+Upload to S3 using AWS CLI
+
+Enable CloudWatch Logs + Metrics for CPU usage and set up alarms
+
+Send email alert if CPU > 70%
+
+💼 Why it's impressive:
+Shows system automation + AWS CLI + monitoring
+
+Proves knowledge of log management, IAM roles, and scripting
+
+Can be expanded to backup logs, DB, etc.
+
+🧰 Tech Used:
+EC2, S3, CloudWatch, IAM, Bash, Cron
+
+📦 Project 3: Infrastructure as Code using Terraform + EC2 + Apache + GitHub
+🧩 What it includes:
+Use Terraform to:
+
+Launch EC2 instance
+
+Attach key, security group, and install Apache via user_data
+
+Push code to GitHub repo
+
+Make config reusable with variables.tf
+
+Add outputs (public IP, instance ID)
+
+💼 Why it's impressive:
+Shows infrastructure as code (IaC)—a must-have in DevOps
+
+Reflects automation, version control, and cloud provisioning
+
+Makes resume stand out even if you're fresher
+
+🧰 Tech Used:
+Terraform, EC2, Apache, GitHub, AWS CLI
+
